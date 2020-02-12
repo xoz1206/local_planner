@@ -1,0 +1,7 @@
+<launch>
+    <rosparam command="load" file="$(find lidar_detect)/cfg/qt_params.yaml"/>
+    <node name="qt_detect_node" pkg="lidar_detect" type="qt_detect_node" output="screen" />
+    <node name="extract_local_road_points" pkg="lidar_detect" type="extract_local_road_points" output="screen" />
+
+    <include file="$(find obb_generator)/launch/obb_generator_launch.launch" />
+</launch>

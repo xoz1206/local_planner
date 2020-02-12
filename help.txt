@@ -1,0 +1,35 @@
+*qt_detect_node.hpp
+쿼드트리 세그멘테이션 부분 클래스 선언 헤더파일
+
+*qt_detect_params.hpp
+쿼드트리 세그멘테이션에 필요한 매크로 변수 파라미터들
+
+*qt_detect_ransac.hpp
+란삭알고리즘 부분 클래스 선언 헤더파일
+
+*qt_detect_box.cpp
+qt_detect_node.hpp 의 BOX 클래스 정의 헤더파일
+
+*qt_detect_boxcluster.cpp
+qt_detect_node.hpp 의 BoxCluster 클래스 정의 헤더파일
+
+*qt_detect_node.cpp
+실행 노드
+
+*qt_detect_quadnode.cpp
+qt_detect_node.hpp 의 QuadNode 클래스 정의 헤더파일
+
+*qt_detect_quadtree.cpp
+qt_detect_node.hpp 의 QuadTree 클래스 정의 헤더파일
+
+*qt_detect_ransac.cpp
+qt_detect_ransac.hpp 의 Plane 클래스 정의 헤더파일
+
+*obb generator
+바운딩박스 만드는 패키지
+
+*obb generator_msgs
+obb generator 및 다른 패키지가 쓸 수 있도록 만든 msg 전용 패키지
+
+*launch
+roslaunch lidar_detect qt_detect_launch.launch
